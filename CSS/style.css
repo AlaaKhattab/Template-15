@@ -11,6 +11,7 @@ body{
 
 /*****************************************************************************************************/
 /******************************************* header **************************************************/
+/*****************************************************************************************************/
 #header{
     height: 200px;
     background-image: url(../Images/header-background.png);
@@ -91,6 +92,7 @@ body{
 
 /*****************************************************************************************************/
 /******************************************* slider **************************************************/
+/*****************************************************************************************************/
 #slider{
     height: 450px;
     background-image: url(../Images/slider.jpg);
@@ -187,9 +189,49 @@ body{
 
 
 
+/*****************************************************************************************************/
+/******************************************* welcome *************************************************/
+/*****************************************************************************************************/
+#welcome{
+    height: 180px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #CCCCCC;
+}
 
+#welcome #welcomeHeader{
+    height: 60px;
+    width: 640px;
+    margin: 0 auto;
+}
 
+#welcome #welcomeHeader img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
 
+#welcome #welcomeHeader h1{
+    display: inline;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 38px;
+    float: left;
+}
+
+#welcome #welcomeHeader h1 span{
+    color: #006737;
+}
+
+#welcome p{
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: bolder;
+    clear: both;
+}
 
 
 
