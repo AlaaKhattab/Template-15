@@ -233,16 +233,57 @@ body{
     clear: both;
 }
 
+/*****************************************************************************************************/
+/******************************************** types **************************************************/
+/*****************************************************************************************************/
+#types{
+    text-align: center;
+    font-family: sans-serif;
+    height: 500px;
+    background: linear-gradient(0deg, #E5EBE9 , white);
+}
 
+#types .typesBlock{
+    float: left;
+    width: 350px;
+    height: 400px;
+    padding-top: 20px;
+}
 
+#types .typesBlock  .typesIcon{
+    /*image*/
+    width: 100px;
+    height: 100px;
+}
 
+#types .typesBlock .data{
+    border-right: 1px solid #E2E2E2;
+}
 
+#types .typesBlock .data h1{
+    font-size: 26px;
+    margin: 10px 2px;
+}
 
+#types .typesBlock .data h1 span{
+    color: #08693E;
+}
 
+#types .typesBlock .data img{
+    border: 3px solid #D0CDCD;
+}
 
+#types .typesBlock .data p{
+    width: 300px;
+    height: 90px;
+    margin: 10px auto 30px auto;
+}
 
-
-
-
-
-
+#types .typesBlock a{
+    color: white;
+    background: linear-gradient(0deg, #026D3E , #009B58);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
