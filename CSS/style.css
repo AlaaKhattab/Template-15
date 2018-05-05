@@ -5,10 +5,6 @@
     padding: 0px;
 }
 
-body{
-    height: 2000px;
-}
-
 /*****************************************************************************************************/
 /******************************************* header **************************************************/
 /*****************************************************************************************************/
@@ -286,4 +282,89 @@ body{
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
+}
+
+
+/*****************************************************************************************************/
+/******************************************* footer **************************************************/
+/*****************************************************************************************************/
+
+#footer{
+    background-color: #0A251C;
+    height: 170px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+#footer .footerBlock{
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+#footer .footerBlock h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#footer .footerBlock ul{
+    list-style: none;
+}
+
+#footer .footerBlock ul li{
+    color: #166D47;
+}
+
+#footer .footerBlock ul li img{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#footer .footerBlock img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#footer .footerBlock #logoFooter{
+    float: left;
+    margin-top: 20px;
+}
+
+#footer .footerBlock #logoFooter img{
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+}
+
+#footer .footerBlock #logoDataFooter{
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#footer .footerBlock #logoDataFooter .logoDataBlockFooter{
+    text-align: center;
+}
+
+#footer .footerBlock #logoDataFooter .logoDataBlockFooter h1{
+    color: #166D47;
+    font-size: 38px;
+}
+
+#footer .footerBlock #logoDataFooter .logoDataBlockFooter ul{}
+
+#footer .footerBlock #logoDataFooter .logoDataBlockFooter ul li{
+    float: left;
+    font-size: 10px;
+}
+
+#footer .footerBlock #logoDataFooter .logoDataBlockFooter ul li img{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
 }
